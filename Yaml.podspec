@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                  YamlSwift parses a string of YAML document(s) (or a JSON document)
                  and returns a Yaml enum value representing that string.
                    DESC
-  s.homepage      = "https://github.com/behrang/YamlSwift"
+  s.homepage      = "https://github.com/psima/YamlSwift"
   s.swift_version = "5.0"
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/behrang/YamlSwift.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/psima/YamlSwift.git", :tag => s.version }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.source_files = "Sources/Yaml/*.swift"
